@@ -1,0 +1,87 @@
+@import "reset.scss";
+
+
+
+.navbar {
+    & a:hover{
+        color: #218555 !important;  
+    }
+    & a::first-letter {
+        color: #218555;
+        font-weight: bold;
+    }
+}
+
+
+.header {
+    margin-right: 30px;
+    & .profile-img {
+        margin-right: 30px;
+        & img{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    & .name-wrapper{
+        margin-bottom: 30px;
+        & h1{
+            text-transform: uppercase;
+            line-height: 1;
+            margin: 0 0 5px;
+        }
+        & span {
+            font-size: 24px;
+            color: #218555;
+        }
+    }
+    & .personal-details{
+        margin: 10px 0;
+        & strong {
+            font-size: 13px;
+            color: #444;
+            display: block;
+            line-height: 1;
+        }
+        & small{
+            font-size: 12px;
+        }
+        & span {
+            color: #989898;
+        }
+    }
+}
+
+
+.social-icon {
+    & li {
+        display: inline-block;
+        margin: 0 2px;
+
+        & a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+            width: 36px;
+            height: 36px;
+            border: 1px solid #218555;
+            color: #218555;
+            text-decoration: none;
+
+            transition: all 0.5s;
+
+            &:hover,
+            &:active,
+            &:focus {
+                background-color: #218555;
+                color: white;
+                filter: none;
+                filter: none;
+
+            }
+        }
+
+    }
+
+}
