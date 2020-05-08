@@ -596,4 +596,43 @@ body {
     padding-right: 20px;
   }
 }
+
+.fixed__call {
+  opacity: 0;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 20px;
+  right: 10px;
+  border-radius: 100px;
+  border: none;
+  background-color: #28a745;
+}
+
+@media (max-width: 980px) {
+  .fixed__call {
+    opacity: 1;
+  }
+}
+
+.fixed__call a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 3vh;
+  width: 100%;
+  height: 100%;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fixed__call a:hover, .fixed__call a:active, .fixed__call a:focus {
+  color: #FF4100;
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
