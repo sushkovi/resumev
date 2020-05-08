@@ -225,10 +225,14 @@ body{
             align-items: center;
 
             &:hover,
-            &:active,
+            
             &:focus{
                 color: #FF4100;
                 text-decoration: none;
+            }
+            &:active{
+                text-decoration: none;
+                color: #fff;
             }
         }
     }

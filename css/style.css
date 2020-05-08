@@ -631,8 +631,13 @@ body {
           align-items: center;
 }
 
-.fixed__call a:hover, .fixed__call a:active, .fixed__call a:focus {
+.fixed__call a:hover, .fixed__call a:focus {
   color: #FF4100;
   text-decoration: none;
+}
+
+.fixed__call a:active {
+  text-decoration: none;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
