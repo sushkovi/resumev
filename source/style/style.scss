@@ -214,10 +214,8 @@ body{
         background-color: #28a745;
         @media (max-width: 980px) {
             opacity: 1;
-            
-            
         }
-        & a{
+        & i{
             display: flex;
             font-size: 3vh;
             width: 100%;
@@ -225,9 +223,7 @@ body{
             color: white;
             justify-content: center;
             align-items: center;
-
             &:hover,
-            
             &:focus{
                 color: #FF4100;
                 text-decoration: none;
